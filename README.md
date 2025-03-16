@@ -2,6 +2,35 @@
 ## Level 1:
 ![Screenshot From 2025-03-16 16-28-52](https://github.com/user-attachments/assets/7cd82ec3-982e-4422-9269-56ab7e748ddf)
 ![Screenshot From 2025-03-16 19-18-38](https://github.com/user-attachments/assets/1a55ce70-0db4-414d-bd63-70d1fffca5d4)
+### program for the above question :
+#### java
+```import java.util.Scanner;
+
+public class AlphabetCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a character: ");
+        char ch = scanner.next().charAt(0);
+
+        if (Character.isLetter(ch)) {
+            System.out.println(ch + " is an alphabet.");
+        } else {
+            System.out.println(ch + " is not an alphabet.");
+        }
+
+        scanner.close();
+    }
+}
+```
+#### python
+```ch = input("Enter a character: ")
+
+if ch.isalpha():
+    print(f"{ch} is an alphabet.")
+else:
+    print(f"{ch} is not an alphabet.")
+```
 ![Screenshot From 2025-03-16 19-07-39](https://github.com/user-attachments/assets/93f2cda1-dbf5-447b-9183-7ce6003e56b9)
 ![Screenshot From 2025-03-16 19-06-35](https://github.com/user-attachments/assets/b84ca2b3-55e0-4221-9cf5-68d84d559226)
 ![Screenshot From 2025-03-16 17-48-51](https://github.com/user-attachments/assets/e1c6e05d-f3b9-431f-8bdf-849e86671e4b)
